@@ -31,14 +31,14 @@ if __name__ == '__main__':
         cos_config = CosConfig(Region=region, SecretId=secret_id, SecretKey=secret_key, Token=token, Scheme=scheme)
         bucket = cf.get("cossetting", "bucket")
         client = CosS3Client(cos_config)
-        with open(dst_folder_name, 'zip') as fp:
-            response = client.put_object(
-                Bucket=bucket,
-                Body=fp,
-                Key='mcDataBackup',
-                StorageClass='STANDARD',
-                EnableMD5=False
-            )
+        response = client.upload_file(
+            Bucket=bucket,
+            LocalFilePath=dst_folder_name,
+            Key='McDataBackup',
+            PartSize=1,
+            MAXThread=10,
+            EnableMD5=False
+        )
         tools.print_i(response['ETag'])
         tools.print_d('压缩文件上传成功')
     except Exception as e:
