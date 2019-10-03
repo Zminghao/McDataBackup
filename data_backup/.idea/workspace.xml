@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315eae1d-38d5-433b-9d1f-8d2ee437e512" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/McDataBackup.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_backup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_backup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +95,7 @@
       <workItem from="1569821117420" duration="1139000" />
       <workItem from="1569822543894" duration="12963000" />
       <workItem from="1569986199672" duration="14502000" />
-      <workItem from="1570085014442" duration="864000" />
+      <workItem from="1570085014442" duration="925000" />
     </task>
     <servers />
   </component>
