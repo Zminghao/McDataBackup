@@ -40,7 +40,6 @@ if __name__ == '__main__':
             EnableMD5=False
         )
         tools.print_i(response['ETag'])
-        tools.print_d('压缩文件上传成功')
     except Exception as e:
         tools.print_e(e)
     tools.print_d('文件备份成功')
