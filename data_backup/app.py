@@ -5,7 +5,7 @@ from qcloud_cos import CosConfig, CosS3Client
 
 import tools
 import configparser
-import copy_file
+import copyfile
 
 if __name__ == '__main__':
     cf = configparser.ConfigParser()
@@ -20,7 +20,7 @@ if __name__ == '__main__':
         folder_name = cf.get("copyfile", "DestFolder")
         zipAndDel = cf.getint("copyfile", "zipAndDel")
         folderAddNow = cf.getint("copyfile", "FolderAddNow")
-        dst_folder_name = copy_file.copy_and_zip(file_list, folder_name, zipAndDel, folderAddNow)
+        dst_folder_name = copyfile.copy_and_zip(file_list, folder_name, zipAndDel, folderAddNow)
 
         tools.print_a('开始上传压缩文件')
         secret_id = cf.get("cossetting", "secret_id")
