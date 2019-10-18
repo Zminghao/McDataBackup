@@ -3,9 +3,9 @@ import os
 
 from qcloud_cos import CosConfig, CosS3Client
 
-import tools
 import configparser
-import copyfile
+
+from data_backup import tools, copyfile
 
 if __name__ == '__main__':
     cf = configparser.ConfigParser()
